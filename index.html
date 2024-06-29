@@ -1,84 +1,83 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    </head>
-    <body>
+<html>
 
-        <header>
+<head>
+  <title>CSS Box Styling</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
 
-            <nav>
-                <div>
-                    <img alt="main logo picture of a bean with shadow under it" src="./assets/images/beanSkate.png" />
-                    <h1>Alejandro Meza</h1>
-                </div>
-                <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Links</a></li>
-                </ul>
-                
-            </nav>
-
-        </header>
-
-        <main>
-            <article>
-                <figure>
-                    <img alt="main logo picture of a bean with shadow under it" src="./assets/images/beanSkate.png" />
-                    <figcaption>
-                        My name is Alejandro Meza an asspiring software developer. I will be getting my
-                        associates in software development at the end of the fall semmester of 2024.I have been programming since my junior year of highschool in 2020.
-                    </figcaption>
-                </figure>
-            </article>
-            <div>
-                <section>
-                    <a>Front End</a>
-                </section>
-
-                <section>
-                    <a>Back End</a>
-                </section>
-                    
-                <section>
-                    <a>data Structures & algorithms</a>
-                </section>
-
-            </div>
-
-        </main>
-
-        <footer>
-            <ul>
-                <li>Email</li>
-                <li><a>alejandromeza437@gmail.com</a></li>
-            </ul>
-
-            <ul>
-                <li>Phone number:</li>
-                <li><a>512-000-0000</a></li>
-            </ul>
-
-            <ul>
-                <li>Linkedin</li>
-                <li><a>Linkedin_Username</a></li>
-            </ul>
-
-            <ul>
-                <li>Github</li>
-                <li><a>AlejandroM2023</a></li>
-            </ul>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Alejandro Meza</h1>
+    <nav>
+      <ul>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Contact Me</a></li>
+        <li><a href="#">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
 
 
-        </footer>
+  <!-- Body -->
+  <main>
+    <div class="secTwo">
+      <article>
+        
+          <figure>
+            <img src="./assets/images/beanSkate.png">
+            
+            <figcaption>
+              <h2 class="aboutMe">Alejandro Meza</h2>
+              <h3 class="aboutMe">A little about me</h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsum optio eum quae neque voluptates, mollitia odit, molestiae 
+              expedita hic debitis itaque iure inventore. Laborum nobis fugiat est magnam quae. Lorem ipsum dolor sit amet consectetur adipisicing 
+              elit. Ut maxime dolorem odio quae molestiae nihil quos a. Consequuntur numquam iusto officiis fuga in porro quod animi autem? Corporis, eius. Quae.
+              <button>Contact me</button>
+            </figcaption>
+            
+          </figure>
+        
 
-    </body>
+      </article>
+    </div>
+
+    <div class="work">
+
+      <section class="card" >
+        <img src="./assets/images/code.jpg">
+        <p>Projects</p>
+      </section>
+
+      <section class="card" >
+        <img src="./assets/images/algorithms.jpg">
+        <p>Data Structes & algorithms</p>
+      </section>
+
+      <section class="card">
+        <img src="./assets/images/resume.jpg">
+        <p>Resume</p>
+      </section>
+
+    </div>
 
 
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <h3>
+      Open Chrome DevTools --> Toggle device toolbar --> Resize the browser
+      window!
+    </h3>
+  </footer>
+</body>
 
 </html>
