@@ -51,6 +51,9 @@ main {
 }
 
 footer {
+  display: flex;
+  flex:wrap;
+  justify-content: space-between;
   max-width: 100%;
   bottom: 0;
   padding: 20px;
@@ -128,7 +131,7 @@ figcaption button{
 
 @media screen and (max-width: 768px) {
   main,
-  header,figure{
+  header,figure,footer{
     flex-direction: column;
   }
 
