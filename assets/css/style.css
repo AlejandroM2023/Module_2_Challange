@@ -105,11 +105,11 @@ figcaption button{
 }
 
 .work {
-  flex: 1;
   background-color: #7AB2B2;
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
+  flex:1;
   justify-content: space-evenly;
 }
 
