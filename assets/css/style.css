@@ -132,7 +132,7 @@ figcaption button{
   height: 40%;
 }
 
-.card > img {
+.card img{
   opacity: 60%;
   border-radius: 44px;
   width: 100%;
