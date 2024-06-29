@@ -107,6 +107,7 @@ figcaption button{
 }
 
 .card > p {
+  color:#4D869C ;
   font-size: 2rem;
   background-color:#CDE8E5;
   position: relative;
