@@ -12,6 +12,7 @@ body {
 }
 
 h1 {
+  color: #3c6577;
   font-size: 200%;
 }
 
@@ -32,18 +33,49 @@ nav ul{
   display: flex;
   justify-content: space-between;
   min-width: 300px;
+  gap:5px;
 }
 
-nav a {
-  background-color: unset;
-  color: var(--navlink-color);
-  font-weight: bold;
+nav a{
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
   text-decoration: none;
+  color: #3c6577;
+  border: 2px solid #3c6577;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
 }
 
-nav a:hover {
-  background-color: #fff;
+nav a span{
+  position: relative;
+  z-index: 2;
 }
+
+nav a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #3c6577;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #EEF7FF;
+}
+
+a:hover:after{
+  width: 100%;
+}
+
+
 
 main {
   display: flex;

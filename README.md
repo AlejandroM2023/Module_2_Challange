@@ -1,10 +1,7 @@
 # Prework Study Guide Webpage
 
 ## Description
-
-feature request challange in which student had to modify pre-existing html
-to feature semantic tags. The project also required the student to make
-the webpage as accesible as possible by using the alt attribute on all the images. Being able to deploy the code to github pages was also a key part.
+This is a first attempt at a portfolio to showcase my work. The page has a header, an about me, a section with cards that redirect you to my work and a footer that serves as a section with all my contact info. The project is as resposive as I could make it.
 
 
 ## Installation
@@ -13,7 +10,7 @@ N/A
 
 ## Usage
 
-By connecting to the page you can see the mock up webpage with the semantic html not changing the structure of the website as when it was first presented.
+By connecting to the page you can see the portfolio page and can navigate through it without a problem.
 ## Credits
 
 N/A
